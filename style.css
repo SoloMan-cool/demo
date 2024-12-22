@@ -81,3 +81,21 @@
 }
 
 /* .drinks__input {} */
+
+.recipe__btn {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    background: chocolate;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+.recipe__btn:hover {
+    background: white;
+    color: chocolate;
+    border: 1px solid chocolate;
+}
