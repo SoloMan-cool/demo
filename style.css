@@ -13,7 +13,7 @@
 }
 
 .box {
-    padding: 10px;
+    padding: 20px;
     border: 1px solid chocolate;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
     color: rgb(181, 93, 31);
 }
 
-.savatga {
+.margarita {
     padding: 6px 20px;
     color: white;
     border: 1px solid transparent;
@@ -39,7 +39,67 @@
     transition: all 1s;
 }
 
-.savatga:hover {
+.margarita:hover {
+    color: chocolate;
+    border: 1px solid chocolate;
+    background-color: white;
+}
+
+.mushroom {
+    padding: 6px 20px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: chocolate;
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+.mushroom:hover {
+    color: chocolate;
+    border: 1px solid chocolate;
+    background-color: white;
+}
+
+.pepperoni {
+    padding: 6px 20px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: chocolate;
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+.pepperoni:hover {
+    color: chocolate;
+    border: 1px solid chocolate;
+    background-color: white;
+}
+
+.neapolitan {
+    padding: 6px 20px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: chocolate;
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+.neapolitan:hover {
+    color: chocolate;
+    border: 1px solid chocolate;
+    background-color: white;
+}
+
+.greek {
+    padding: 6px 20px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: chocolate;
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+.greek:hover {
     color: chocolate;
     border: 1px solid chocolate;
     background-color: white;
@@ -147,11 +207,14 @@
     border: 1px solid chocolate;
 }
 
+.none {
+    display: none;
+}
+
 .savat{
     border: rgb(181, 93, 31) solid;
     border-radius: 20px;
     max-width: 500px;
-    margin-left: 500px;
     margin-bottom: 500px;
     background-color: rgb(241, 178, 134);
     height: 350px;
