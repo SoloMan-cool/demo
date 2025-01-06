@@ -207,35 +207,32 @@
     border: 1px solid chocolate;
 }
 
-.none {
-    display: none;
-}
 
 .savat{
-    border: rgb(181, 93, 31) solid;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px rgb(181, 93, 31);
     border-radius: 20px;
-    max-width: 500px;
     margin-bottom: 50px;
     background-color: rgb(241, 178, 134);
-    height: 350px;
+    width: 500px;
 }
 
 .savat__text{
     color: rgb(106, 45, 2);
     font-family: sans-serif;
-    text-align: center;
 }
 
 .savat__text2{
     color: rgb(106, 45, 2);
     font-family: sans-serif;
-    text-align: center;
 }
 
 .savat__text3{
     color: rgb(106, 45, 2);
     font-family: sans-serif;
-    text-align: center;
 }
 
 .savat__text1{
@@ -243,18 +240,19 @@
     font-family: sans-serif;
     font-size: 50px;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 0;
     letter-spacing: 0%;
-    text-align: center;
-
 }
 
 .savat__text0{
     color: rgb(106, 45, 2);
     font-family: sans-serif;
-    text-align: center;
 }
 
+.savat__text4 {
+    color: rgb(106, 45, 2);
+    font-family: sans-serif;
+}
 
 .savat__btn{
     background: rgb(255, 111, 8);
@@ -264,12 +262,68 @@
     border-radius: 8px;
     transition: all 1s;
     margin: 0 160px;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 .savat__btn:hover {
     background: white;
     color: chocolate;
     border: 1px solid chocolate;
-   
+    
+}
+
+.dough {
+    padding: 5px;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid chocolate;
+}
+
+.dough__text {
+    border: 1px solid transparent;
+    color: rgb(106, 45, 2);
+}
+
+.qalin {
+    border: 1px solid transparent;
+    color: rgb(106, 45, 2);
+}
+
+.yupqa {
+    border: 1px solid transparent;
+    color: rgb(106, 45, 2);
+}
+
+.ortancha {
+    border: 1px solid transparent;
+    color: rgb(106, 45, 2);
+}
+
+.dough__box {
+    background: white;
+    /* border: 1px solid chocolate; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: -10px;
+    top: 50px;
+}
+
+.dough__img {
+    width: 20px;
+    height: 20px;
+}
+
+.dough__btn {
+    border: none;
+    background: transparent;
+}
+
+.none {
+    display: none;
 }
